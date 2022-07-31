@@ -77,3 +77,112 @@ vertical-align: inherit;
     padding: 0rem ;
     margin-top: 1rem;
 }
+
+.sec2{
+    background-image: url("./img/sec2_bg.png");
+    background-repeat: repeat;
+    background-color: rgb(39, 42, 50);
+    
+    padding-top: 60px;
+    width: 100%;
+    
+}
+
+.h1-1{
+    font-family: "Nanum Gothic";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;
+    vertical-align: inherit;
+    margin: 0%;
+}
+
+.guide_bar{
+    font-family: "Nanum Gothic";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 53px;
+    height: 16px;
+    border-bottom: 1px solid rgb(239, 81, 60);
+    margin: 0px auto 54px;
+}
+
+.ul1{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    flex-direction: column;
+    padding: 0%;
+    row-gap: 2rem;
+}
+
+.li1{
+    display: flex;
+    
+}
+
+.li1-div{
+    display: flex;
+    margin: 0% 2.5%;
+    padding: 1rem 0rem;
+    margin-bottom: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    flex:1;
+
+}
+ .h2-1{    
+    font-family: Nanum Gothic;
+    color: #ef513c;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    line-height: 52px;
+    vertical-align: inherit;
+    padding-left: 0.5rem;
+    white-space:nowrap;
+}
+
+.p4{
+    padding: 0px 0.5em 0px 0px;
+    font-family: Nanum Gothic;
+    color: #fff;
+    line-height: 1.5em;
+    font-family: "Nanum Gothic";
+    font-size: .75em;
+    text-align: left;
+    word-break: keep-all;
+    vertical-align: inherit;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+}
+
+.main-program-img{
+    width: 64px;
+    height: fit-content;
+}
+
+.div4{
+    
+    color: #fff;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.span1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#EC5242;
+    margin-bottom: 2rem;
+    width: 70%;
+    height: 60px;
+}
+    
