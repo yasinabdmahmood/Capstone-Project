@@ -217,6 +217,7 @@ text-align: center;
 
 .img-name{
 display: flex;
+flex-wrap: nowrap;
 
 }
 .card-img{
@@ -253,6 +254,7 @@ display: flex;
     padding-left: 1rem;
     padding-top: 2rem;
     padding-right: 1rem;
+    flex-shrink: 1;
 }
 
 
