@@ -270,3 +270,21 @@ flex-wrap: nowrap;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.show-less{
+    position: relative;
+    left:2.5% ;
+    width: 95%;
+    display: flex;
+    column-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d3d3d3;
+    padding: 1rem 0rem;
+    margin-bottom: 3rem;
+
+}
+
+.show-less img{
+    transform: rotate(0deg) scale(1.3);
+}
