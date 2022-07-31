@@ -185,4 +185,86 @@ vertical-align: inherit;
     width: 70%;
     height: 60px;
 }
+
+.sec3{
+    width: 100%;
+    padding-top: 79px;
+}
+
+.sec3-header-wrapper{
+text-align: center;
+}
+.sec3-header{
+    font-family: "Nanum Gothic";
+    text-align: center;
+    color: rgb(39, 42, 50);
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: inherit;
+    margin: 0%;
+}
+.speaker{
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-card{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 24px;
+
+}
+
+.img-name{
+display: flex;
+
+}
+.card-img{
+    width: 178px;
+    height: fit-content;
+}
     
+.speaker-h3{
+    font-family: "Nanum Gothic";
+    text-align: left;
+    font-size: 16px;
+    color: inherit;
+    vertical-align: inherit;
+    margin: 0%;
+}
+.speaker-h4{
+    font-family: "Nanum Gothic";
+    font-size: 14px;
+    text-align: left;
+    color: inherit;
+    vertical-align: inherit; 
+    margin: 0%;
+}
+.speaker-p{
+    font-family: "Nanum Gothic";
+    font-size: 13px;
+    color: rgb(255, 79, 56);
+    text-align: left;
+    vertical-align: inherit;
+}
+
+
+.card-item2{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+}
+
+
+.card-p{
+    flex-basis: 100%;
+    font-family: "Nanum Gothic";
+    color: rgb(39, 42, 50);
+    word-break: break-all;
+    line-height: 150%;
+    font-size: 13px;
+    text-align: left;
+    vertical-align: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+}
