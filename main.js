@@ -51,7 +51,7 @@ let speackersInfo=[
 let sec3Content=`
 <div class="sec3-header-wrapper">
     <h1 class="sec3-header ">
-        main speaker
+        Featured Speakers
     </h1>
 </div>
 <div class="guide_bar"></div>
@@ -75,13 +75,11 @@ function addCards(numOfCards){
                 </div>
                 <div class="card-item2">
                     <h3 class="speaker-h3">${speackersInfo[index].name1}</h3>
-                    <h4 class="speaker-h4">${speackersInfo[index].name2}</h4>
                     <p class="speaker-p">${speackersInfo[index].occupation}</p>
+                    <p class="card-p">${speackersInfo[index].discription}</p>
                 </div>
             </div>
-            <div class="card-item3">
-                <p class="card-p">${speackersInfo[index].discription}</p>
-            </div>
+            
         </div>`;
         if(index<=numOfCards){
             document.getElementById('speaker').innerHTML+=card;
@@ -93,7 +91,7 @@ function addCards(numOfCards){
 }
 addCards(1);
 
-let bol=false;
+let bol=true;
 
 document.getElementById('show').onclick=()=>{
     document.getElementById('speaker').innerHTML=""
