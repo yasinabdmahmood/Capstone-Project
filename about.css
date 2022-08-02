@@ -275,6 +275,9 @@ padding: 4rem;
 .black-strip , .white-strap {
     display: none;
 }
+#scroll-up{
+    display: none;
+}
 
 @media only screen and (min-width: 768px){
     
@@ -351,6 +354,8 @@ padding: 4rem;
         margin: 0%;
     }
 
+    
+
     .navbar-item-white {
         font-size: 12px;
         font-family: 'Lato' ,sans-serif;
@@ -365,7 +370,7 @@ padding: 4rem;
         color: gray;
     }
 
-    .red-t {
+    .red-t a{
         color: red;
     }
 
@@ -464,4 +469,13 @@ padding: 4rem;
         color: white;
         font-size: 1.1rem;
     }
+    #scroll-up{
+        display: unset;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px ;
+        height: 50px;
+       
+     }
 }

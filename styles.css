@@ -373,6 +373,9 @@ flex-wrap: nowrap;
 .hide-for-mobile{
     display: none;
 }
+#scroll-up{
+    display: none;
+}
 
 /* Desktop design */
 
@@ -453,10 +456,7 @@ align-items: center;
         border: red solid 4px;
     }
 
-    .red-t{
-        color: red;
-        
-    }
+    
 
     .top-menu-navbar{
         padding-right: 15vw;
@@ -479,6 +479,10 @@ align-items: center;
         font-size: .813em;
         color: white;
         text-decoration: none;
+    }
+    .red-t a{
+        color: red;
+        
     }
     .hello-text {
         font-size: 2.5rem;
@@ -655,6 +659,16 @@ align-items: center;
    font-size: 1.5rem;
    font-weight: 400;
     height: auto;
+ }
+
+ #scroll-up{
+    display: unset;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px ;
+    height: 50px;
+   
  }
 
 }

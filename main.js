@@ -1,4 +1,5 @@
 import {createMobileMenu} from './mobile_menu.js';
+import {implementScrollUp} from './scroll_up.js'
 let speackersInfo=[
     {
         name1:'yohai benkler',
@@ -117,3 +118,11 @@ document.getElementById('show').onclick=()=>{
 ////////////////mobile menu implementation////////////////
 
 createMobileMenu('about','./about.html')
+
+
+
+//////////////////scroll up implementation //////////
+
+implementScrollUp();
+
+
