@@ -1,3 +1,4 @@
+import {createMobileMenu} from './mobile_menu.js';
 let speackersInfo=[
     {
         name1:'yohai benkler',
@@ -114,35 +115,5 @@ document.getElementById('show').onclick=()=>{
 
 
 ////////////////mobile menu implementation////////////////
-let mobileMenu=`<div class="mobile-menu-wrapper">
-<div class="mobile-menu-option-wrapper exeption">
-   <img src="./img/x.svg" id="close-mobile-menu" alt="">
-</div>
-<div class="mobile-menu-option-wrapper">
-    <span class="mobile-menu-option-text">CC Capmaign</span>
-</div>
-<div class="mobile-menu-option-wrapper">
-    <span class="mobile-menu-option-text">News</span>
-</div>
-<div class="mobile-menu-option-wrapper">
-    <span class="mobile-menu-option-text">Sponser</span>
-</div>
-<div class="mobile-menu-option-wrapper">
-    <span class="mobile-menu-option-text">Join</span>
-</div>
-<div class="mobile-menu-option-wrapper">
-    <span class="mobile-menu-option-text">Program</span>
-</div>
-<div class="mobile-menu-option-wrapper">
-    <span class="mobile-menu-option-text">About</span>
-</div>
-</div>`;
-document.getElementById('show-mobile-menu').onclick=()=>{
-    document.getElementById('mobile-menue').innerHTML=mobileMenu;
-    document.body.style.overflow = "hidden";
-    document.getElementById('close-mobile-menu').onclick=()=>{
-    document.getElementById('mobile-menue').innerHTML='';
-    document.body.style.overflow = "unset";
-    }
 
-}
+createMobileMenu('about','./about.html')

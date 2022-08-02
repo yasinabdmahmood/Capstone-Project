@@ -216,3 +216,48 @@ padding: 4rem;
     font-weight: 400;
     height: auto;
 }
+
+/* mobile-menu design */
+.mobile-menu-wrapper{
+    font-family: Nanum Gothic;
+    color: #333;
+    position: absolute;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 85%;
+    background: #272a32;
+    opacity: .95;
+    height: 9902px;
+    
+    padding-top: 2rem;
+}
+
+.mobile-menu-option-text{
+    text-decoration: none;
+    font-family: 'lato',sans-serif;
+    font-size: 1em;
+    line-height: 2.5em;
+    color: #fff;
+    vertical-align: inherit;
+}
+
+.mobile-menu-option-wrapper{
+    width: 85%;
+    padding-left: 2rem;
+    height: fit-content;
+    border-bottom: 2px solid ;
+}
+
+.mobile-menu-option-wrapper  img{
+    transform: scale(3);
+    
+    float: right;
+}
+
+.exeption{
+    border: unset;
+}

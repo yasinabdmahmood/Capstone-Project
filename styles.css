@@ -338,6 +338,7 @@ flex-wrap: nowrap;
 }
 
 .mobile-menu-option-text{
+    text-decoration: none;
     font-family: 'lato',sans-serif;
     font-size: 1em;
     line-height: 2.5em;
