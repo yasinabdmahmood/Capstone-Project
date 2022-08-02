@@ -441,6 +441,12 @@ align-items: center;
         margin: 1.3rem 0rem;
         color: gray;
     }
+    .navbar-item-white a{
+        text-decoration: none;
+        font-family: 'Lato' ,sans-serif;
+        color: gray;
+
+    }
 
     .red-t-b{
         color: red;
@@ -464,12 +470,16 @@ align-items: center;
     }
 
     .navbar-item{
-        font-family: 'Lato' , sans-serif;
-        font-size: .813em;
+        
         color: white;
         padding: 0rem 0.5rem;
     }
-    
+    .navbar-item a{
+        font-family: 'Lato' , sans-serif;
+        font-size: .813em;
+        color: white;
+        text-decoration: none;
+    }
     .hello-text {
         font-size: 2.5rem;
     }

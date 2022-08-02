@@ -138,7 +138,17 @@ padding: 4rem;
     margin: 0rem 4rem 4rem;
     padding: 2rem;
 }
-
+.logo-information{
+    padding: 2rem 0rem 0rem;
+    
+}
+.logo-information h3{
+    font-family: 'lato',sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+ 
+}
 .logo-img{
     width: 40vw;
     
@@ -260,4 +270,198 @@ padding: 4rem;
 
 .exeption{
     border: unset;
+}
+ 
+.black-strip , .white-strap {
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    
+    .sec1{
+        width: 100vw;
+        height: auto;
+        background-image: url("./img/mobile_intro_bg.png");
+        background-repeat: repeat;
+        background-position: top;
+        padding-bottom: 2rem;
+    }
+    .header{
+        display: none;
+    }
+    .black-strip {
+        position: relative;
+        top: 0%;
+        padding: 0%;
+        display: block;
+        width: 100vw;
+        height: 36px;
+        background-color: #3e3e3e;
+        text-align: right;
+        line-height: 36px;
+    }
+
+    .top-menu-navbar {
+        padding-right: 15vw;
+    }
+
+    .navbar-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-item {
+        color: white;
+        padding: 0rem 0.5rem;
+    }
+
+    .navbar-item a{
+        font-family: 'Lato' , sans-serif;
+        font-size: .813em;
+        color: white;
+        text-decoration: none;
+    }
+
+    .white-strap {
+        display: flex;
+        box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+        background-color: white;
+        justify-content: space-around;
+    }
+    .icon-wrapper {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-img {
+        width: 60px;
+        transition-property: transform;
+        transition-duration: 0.5s;
+    }
+
+    .navbar-list-white {
+        padding-right: 15vw;
+        list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+        background-color: white;
+        margin: 0%;
+    }
+
+    .navbar-item-white {
+        font-size: 12px;
+        font-family: 'Lato' ,sans-serif;
+        padding: 0.7rem 1rem;
+        margin: 1.3rem 0rem;
+        color: gray;
+    }
+
+    .navbar-item-white a {
+        text-decoration: none;
+        font-family: 'Lato' ,sans-serif;
+        color: gray;
+    }
+
+    .red-t {
+        color: red;
+    }
+
+    .red-t-b {
+        color: red;
+        border: red solid 4px;
+    }
+
+    .hello-text{
+        display: none;
+    }
+    .div1 {
+       
+        padding: 6rem 1rem 1rem;
+    }
+    .main-topic-text {
+        padding: 0rem 12rem;
+        text-align: center;
+        color: #ec5242;
+        font-family: 'COCOGOOSE', sans-serif;
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin: 0%;
+        line-height: 2.8rem;
+    }
+
+    .div2 {
+        padding: 4rem 25vw;
+    }
+
+    .discription {
+        
+        font-size: 1.2rem;
+        
+    }
+
+    .past-summits {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+    .logo-information h3 {
+        
+        font-size: 1.1rem;
+        
+    }
+
+    .logo-wrapper {
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid gray;
+        margin: 0rem calc(50vw - 107px) 4rem;
+        
+    }
+    .logo-img {
+        width: 140px;
+    }
+
+    .h2-logo-d2 {
+       
+        font-size: 1.5rem;
+        
+    }
+    .past-summits div span {
+        font-size: 1.1rem;
+    }
+
+    .global-summit-imgs {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: center;
+        padding: 2rem ;
+    }
+
+    .global-summit-imgs img {
+       width: 30vw;
+    }
+
+    .sponsers-wrapper{
+        display: none;
+
+    }
+
+    .copy-right {
+        background-color: #272a31;
+    }
+
+    .copy-right img {
+        width: 100px;
+    }
+
+    .copy-right span {
+        color: white;
+        font-size: 1.1rem;
+    }
 }
