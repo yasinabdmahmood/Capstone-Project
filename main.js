@@ -73,7 +73,7 @@ function addCards(numOfCards){
             let card=`<div class="speaker-card ${index>=2? 'hide-on-demand':''}">
             <div class="img-name">
                 <div class="card-item1">
-                    <img class="card-img" src="${speackersInfo[index].img}" alt="">
+                    <img class="card-img" src="${speackersInfo[index].img}" alt="${speackersInfo[index].name1}">
                 </div>
                 <div class="card-item2">
                     <h3 class="speaker-h3">${speackersInfo[index].name1}</h3>
