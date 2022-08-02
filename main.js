@@ -1,5 +1,8 @@
 import {createMobileMenu} from './mobile_menu.js';
 import {implementScrollUp} from './scroll_up.js'
+
+//////////////////feature  speackers  section dynamic implementation ///////////
+
 let speackersInfo=[
     {
         name1:'yohai benkler',
