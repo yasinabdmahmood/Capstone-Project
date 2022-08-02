@@ -369,6 +369,10 @@ flex-wrap: nowrap;
     display: none;
 }
 
+.hide-for-mobile{
+    display: none;
+}
+
 /* Desktop design */
 
 @media only screen and (min-width: 768px){
