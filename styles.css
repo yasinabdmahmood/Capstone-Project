@@ -215,7 +215,7 @@ body {
 .speaker {
   display: flex;
   flex-direction: column;
-  padding: 0rem 1rem;
+  padding: 0 1rem;
 }
 
 .speaker-card {
