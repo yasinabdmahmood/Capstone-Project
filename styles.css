@@ -172,6 +172,7 @@ body {
 
 .main-program-img {
   width: 64px;
+  height: max-content;
 }
 
 .div4 {
