@@ -2,7 +2,7 @@
 
 # Capstone Project
 
-> In this website you will learn how to create a web application using the Html Css and Javascript.
+> In this Capstone project a website is bulit based on an online website for a conference about Science and technology summit 2022.
 ## Built With
 
 - HTML
