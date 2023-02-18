@@ -2,7 +2,7 @@
 
 # Capstone Project
 
-> In this Capstone project a website is bulit based on an online website for a conference about Science and technology summit 2022.
+> This project is a website dedicated to the Science and Technology Summit 2022 conference. The website contains all the information you need to know about the conference, including the schedule, speakers, and other important details. Whether you're a conference attendee or just interested in the latest developments in science and technology, this website has everything you need to stay informed. Explore the site to learn more about the exciting conference and the latest breakthroughs in the field.
 ## Built With
 
 - HTML
